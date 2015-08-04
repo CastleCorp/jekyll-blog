@@ -3,6 +3,9 @@ layout: post
 title:  "Zen Clock Project"
 date:   2015-5-14
 image: zen_clock.jpg
+tags:
+  - projects
+  - portfolio descriptions
 ---
 
 <p class="intro"><span class="dropcap">N</span>ow that I have finally gotten around to creating my blog, I have decided that my best course of action is to backlog my way through project descriptions.</p>
@@ -31,7 +34,7 @@ Zen clock is extremely simple. One HTML file, 111 lines, for a grand total of 24
 
 But in the interest of due diligence, I will give some brief explanation of the code that makes Zen Clock tick (pun not intended).
 
-Skipping over the file {% highlight html %}<head>{% endhighlight %} and the messy CSS styling, we come to a div with the label "clock". Followed closely by the closing body tag. This may seem somewhat confusing, seeing as there is no code that seems to tell the browser how to display the clock, let alone the gif in the background.
+Skipping over the file <head> and the messy CSS styling, we come to a div with the label "clock". Followed closely by the closing body tag. This may seem somewhat confusing, seeing as there is no code that seems to tell the browser how to display the clock, let alone the gif in the background.
 
 Herein lies the trick: about 99% of this entire project relies on jQuery, a popular library for implementing Javascript. jQuery, put simply, makes working with Javascript easier, and therefore makes the developer's life easier. Which is good.
 

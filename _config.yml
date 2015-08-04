@@ -16,7 +16,7 @@ navigation:
  - title: Blog Home
    url: /index.html
 
-social:
+footer-links:
    github: CastleCorp
    twitter: ParkerJThomas
    linkedin: parkerthomas1

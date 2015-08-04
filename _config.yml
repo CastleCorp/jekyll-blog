@@ -1,7 +1,7 @@
 title: ./blog
 description: In depth project descriptions and more
 
-url: http://blog.iampjt.com
+url: http://iampjt.com
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -21,5 +21,12 @@ social:
    twitter: ParkerJThomas
    linkedin: parkerthomas1
    email: parker@iampjt.com
+   instagram: ParkerJThomas
+   rss: feed.xml
 
 google_analytics: "UA-39800224-6"
+
+email: parker@iampjt.com
+
+gems:
+  - jekyll-sitemap

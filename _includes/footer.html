@@ -4,6 +4,7 @@
 
       <div class="footer-links">
          <ul class="noList">
+<<<<<<< HEAD
             {% if site.social.twitter %}
             <li><a href="https://twitter.com/{{ site.social.twitter }}">
                   <svg id="twitter" class="custom-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" style="height: 30px; width: 30px;"><circle class="outer-shape" cx="50" cy="50" r="48" style="opacity: 1;"></circle>
@@ -25,6 +26,14 @@
                   </svg>
             </a></li>
             {% endif %}
+=======
+           {% if site.social.instagram %}<li><a href="https://instagram.com/{{ site.social.instagram }}"><i class="svg-icon instagram"></i></a></li>{% endif %}
+           {% if site.social.linkedin %}<li><a href="https://www.linkedin.com/in/{{ site.social.linkedin }}"><i class="svg-icon linkedin"></i></a></li>{% endif %}
+            {% if site.social.twitter %}<li><a href="https://twitter.com/{{ site.social.twitter }}"><i class="svg-icon twitter"></i></a></li>{% endif %}
+            {% if site.social.github %}<li><a href="https://github.com/{{ site.social.github }}"><i class="svg-icon github"></i></a></li>{% endif %}
+            {% if site.email %}<li><a href="mailto:{{ site.email }}"></a><i class="svg-icon email"></i></a></li>{% endif %}
+            {% if site.social.rss %}<a href="{{ site.baseurl }}/feed.xml"><i class="svg-icon rss"></i></a>{% endif %}
+>>>>>>> c13dd36a4de058bcbfcc9a87966d929b73b50aef
          </ul>
       </div>
    </div>

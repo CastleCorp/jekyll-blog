@@ -3,11 +3,8 @@ layout: post
 title:  "Zen Clock Project"
 date:   2015-5-14
 image: zen_clock.jpg
-<<<<<<< HEAD
-=======
 tags: "projects portfolio"
 comments: true
->>>>>>> c13dd36a4de058bcbfcc9a87966d929b73b50aef
 ---
 
 <p class="intro"><span class="dropcap">N</span>ow that I have finally gotten around to creating my blog, I have decided that my best course of action is to backlog my way through project descriptions.</p>

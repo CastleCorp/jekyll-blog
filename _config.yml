@@ -11,10 +11,10 @@ highlighter: pygments
 paginate: 5
 
 navigation:
- - title: Main Site
-   url: http://iampjt.com
- - title: Blog Home
-   url: /index.html
+  - title: Main Site
+    url: http://iampjt.com
+  - title: Blog Home
+    url: /index.html
 
 social:
    github: CastleCorp
